@@ -2,9 +2,327 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid c36711c6-27c1-4315-8bea-60438d6eedb7)
+	(uuid "c36711c6-27c1-4315-8bea-60438d6eedb7")
 	(paper "A4")
 	(lib_symbols)
+	(text "LoRa Sensor TAG main sheet"
+		(exclude_from_sim no)
+		(at 201.168 189.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "43fa678a-8490-4f43-90c0-55220c103d06")
+	)
+	(wire
+		(pts
+			(xy 50.8 60.96) (xy 67.31 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "654e5f64-b544-4483-bf97-6830c77c80f0")
+	)
+	(wire
+		(pts
+			(xy 50.8 74.93) (xy 67.31 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d6b5a4-9c52-4f04-8c23-5780b1ae13b7")
+	)
+	(wire
+		(pts
+			(xy 50.8 63.5) (xy 67.31 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c414626c-b5ef-4cf7-a0c1-0525e8787e03")
+	)
+	(wire
+		(pts
+			(xy 50.8 77.47) (xy 67.31 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d37dcc40-c997-48d2-b556-31d094525d6f")
+	)
+	(wire
+		(pts
+			(xy 50.8 66.04) (xy 67.31 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0912874-3936-40d2-bb7d-412c24d2b76b")
+	)
+	(sheet
+		(at 24.13 50.8)
+		(size 26.67 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0225fd9c-2ccf-458f-94a3-e2ffa44f3192")
+		(property "Sheetname" "MCU_main_part"
+			(at 24.13 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu_main_part.kicad_sch"
+			(at 24.13 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO_PG_ALERT" input
+			(at 50.8 60.96 0)
+			(uuid "ebd58dfd-f79d-4a21-b7d2-25a99a628c4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_PROG2" input
+			(at 50.8 63.5 0)
+			(uuid "c3f17cf1-22d5-43bc-a223-1a5919389434")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_SEL" input
+			(at 50.8 66.04 0)
+			(uuid "6e797c3e-2505-4d9a-a9cd-756a1c3aadb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_RX" input
+			(at 50.8 55.88 0)
+			(uuid "71139e44-9c3a-4c1b-9da5-1f0416e94def")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_TX" input
+			(at 50.8 53.34 0)
+			(uuid "793ebf0e-dd59-4c9c-9a93-ae77b6fb39f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 50.8 74.93 0)
+			(uuid "dd26f075-65f2-414a-bbaf-2773119c6ba6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 50.8 77.47 0)
+			(uuid "616ef00a-5ea1-4175-a963-dadf03e1253c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "lora_sensor_tag"
+				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 50.8)
+		(size 30.48 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "766064d7-b86b-4c96-9009-21192ab57c8c")
+		(property "Sheetname" "power"
+			(at 67.31 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 67.31 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO_PROG2" input
+			(at 67.31 63.5 180)
+			(uuid "f78d1184-a20a-4f13-bab3-0baf1482c2ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_SEL" input
+			(at 67.31 66.04 180)
+			(uuid "8c3648c9-668f-416b-b3dd-bdabeff65270")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG_ALERT" input
+			(at 67.31 60.96 180)
+			(uuid "421e3f09-1331-4ee8-a6a1-cbf9ae15903c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG_SCL" input
+			(at 67.31 74.93 180)
+			(uuid "28e6d9b7-dcb2-472e-9caf-712c5de2b7bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG_SDA" input
+			(at 67.31 77.47 180)
+			(uuid "b93b37f9-578b-4afb-a677-ea7c3a743501")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "lora_sensor_tag"
+				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 50.8)
+		(size 34.29 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cc2abe59-c980-47ad-a0cf-32ea17a25214")
+		(property "Sheetname" "usb_and_prog"
+			(at 106.68 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_and_prog.kicad_sch"
+			(at 106.68 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lora_sensor_tag"
+				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
