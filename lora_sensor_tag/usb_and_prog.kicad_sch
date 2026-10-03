@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "b9970d87-4c20-48d0-a84c-52934cf1ccea")
 	(paper "A4")
+	(title_block
+		(title "USB and programmer")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
@@ -3011,7 +3015,7 @@
 		(uuid "f30cbf00-7804-42b0-abd9-f85c15388973")
 	)
 	(hierarchical_label "MCU_EN"
-		(shape input)
+		(shape output)
 		(at 148.59 118.11 0)
 		(effects
 			(font
@@ -3033,7 +3037,7 @@
 		(uuid "46bc602d-564b-48f2-973d-077cf634b6c4")
 	)
 	(hierarchical_label "MCU_TX"
-		(shape input)
+		(shape output)
 		(at 208.28 50.8 0)
 		(effects
 			(font
@@ -3044,7 +3048,7 @@
 		(uuid "7da83398-d936-4359-b4d2-0bb83ba55fba")
 	)
 	(hierarchical_label "MCU_IO0"
-		(shape input)
+		(shape output)
 		(at 147.32 148.59 0)
 		(effects
 			(font
@@ -3065,7 +3069,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "175c2c04-696f-4ee4-8c72-c6b8e8d976ac")
-		(property "Reference" "R22"
+		(property "Reference" "R23"
 			(at 121.92 120.904 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3127,7 +3131,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/cc2abe59-c980-47ad-a0cf-32ea17a25214"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -3262,7 +3266,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20d50535-5eba-4000-80e5-93ea46a18169")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR070"
 			(at 175.26 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -3322,7 +3326,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/cc2abe59-c980-47ad-a0cf-32ea17a25214"
-					(reference "#PWR076")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -3340,7 +3344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b6ddf17-33d3-4a1b-b8bc-bbdc640241b7")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR069"
 			(at 74.93 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -3400,7 +3404,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/cc2abe59-c980-47ad-a0cf-32ea17a25214"
-					(reference "#PWR037")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -3496,7 +3500,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b3db27f-b926-40dd-9082-10cbe4ef3af7")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR073"
 			(at 68.58 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3556,7 +3560,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/cc2abe59-c980-47ad-a0cf-32ea17a25214"
-					(reference "#PWR070")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -3654,7 +3658,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51507359-57b3-469f-9639-5847eb08d4cf")
-		(property "Reference" "R23"
+		(property "Reference" "R24"
 			(at 121.412 145.796 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3716,7 +3720,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/cc2abe59-c980-47ad-a0cf-32ea17a25214"
-					(reference "R23")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -3931,7 +3935,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57ecf484-c337-4e54-a121-a6ad746e0669")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR072"
 			(at 152.4 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3991,7 +3995,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/cc2abe59-c980-47ad-a0cf-32ea17a25214"
-					(reference "#PWR073")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -4172,7 +4176,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c203ae3-0d0a-4bbd-8d73-523feea09d8c")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 162.56 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4234,7 +4238,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/cc2abe59-c980-47ad-a0cf-32ea17a25214"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -4369,7 +4373,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4b8a84f-ec75-456f-ad72-4b8c23b37541")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR068"
 			(at 175.26 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -4429,7 +4433,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/cc2abe59-c980-47ad-a0cf-32ea17a25214"
-					(reference "#PWR075")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -4446,7 +4450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5919199-0983-4b5a-828d-1d9c67f2f2b3")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR076"
 			(at 217.17 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4506,7 +4510,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/cc2abe59-c980-47ad-a0cf-32ea17a25214"
-					(reference "#PWR074")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -4523,7 +4527,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c98e1ae7-ee04-48e8-8d11-1f92ac71b5cb")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR077"
 			(at 184.15 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4583,7 +4587,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/cc2abe59-c980-47ad-a0cf-32ea17a25214"
-					(reference "#PWR071")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -4682,7 +4686,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d36cce1e-4ef1-4740-913c-bc22502d6c76")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR074"
 			(at 36.83 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4742,7 +4746,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/cc2abe59-c980-47ad-a0cf-32ea17a25214"
-					(reference "#PWR068")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -4759,7 +4763,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1faadcd-5ce1-43f5-83db-7917a620b1c2")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR075"
 			(at 144.78 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4819,7 +4823,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/cc2abe59-c980-47ad-a0cf-32ea17a25214"
-					(reference "#PWR077")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -4836,7 +4840,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec78e0b9-1ee6-41f6-bb5e-752fea3eeae9")
-		(property "Reference" "R19"
+		(property "Reference" "R22"
 			(at 210.82 73.914 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4898,7 +4902,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/cc2abe59-c980-47ad-a0cf-32ea17a25214"
-					(reference "R19")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -4915,7 +4919,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa37b81a-d56a-4efe-a303-3f00d5017bb4")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR071"
 			(at 144.78 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4975,7 +4979,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/cc2abe59-c980-47ad-a0cf-32ea17a25214"
-					(reference "#PWR078")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -4992,7 +4996,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcc4c8ed-331d-4c02-9b06-8c303fd9c200")
-		(property "Reference" "U10"
+		(property "Reference" "U9"
 			(at 188.214 110.744 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5138,7 +5142,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/cc2abe59-c980-47ad-a0cf-32ea17a25214"
-					(reference "U10")
+					(reference "U9")
 					(unit 1)
 				)
 			)
