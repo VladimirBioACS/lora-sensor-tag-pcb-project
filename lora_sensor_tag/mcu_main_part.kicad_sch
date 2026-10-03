@@ -195,6 +195,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3364,7 +3487,19 @@
 		)
 	)
 	(rectangle
-		(start 214.63 119.38)
+		(start 245.11 100.33)
+		(end 267.97 119.38)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "326648c4-c132-46ee-bddd-46dc5472f97b")
+	)
+	(rectangle
+		(start 213.36 119.38)
 		(end 237.49 135.89)
 		(stroke
 			(width 0)
@@ -3374,6 +3509,18 @@
 			(type none)
 		)
 		(uuid "54f320a5-d8c5-4691-a6d4-310de8a369be")
+	)
+	(rectangle
+		(start 13.97 161.29)
+		(end 83.82 194.31)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "6dc27d94-b44f-46f3-9405-b1ccf069de36")
 	)
 	(rectangle
 		(start 111.76 16.51)
@@ -3412,7 +3559,7 @@
 		(uuid "b7b92eed-2a9d-410e-b9bf-453f70661c1b")
 	)
 	(rectangle
-		(start 257.81 77.47)
+		(start 257.81 76.2)
 		(end 267.97 82.55)
 		(stroke
 			(width 0)
@@ -3489,6 +3636,16 @@
 		)
 		(uuid "3ac37c9f-a2da-49aa-af96-1c254d359878")
 	)
+	(text "Test points"
+		(exclude_from_sim no)
+		(at 20.066 192.532 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "81e77885-b482-43fd-9e13-69f4785d1b35")
+	)
 	(text "LoRa Modem"
 		(exclude_from_sim no)
 		(at 119.126 163.576 0)
@@ -3522,7 +3679,7 @@
 	)
 	(text "0 Ohm"
 		(exclude_from_sim no)
-		(at 230.886 74.93 0)
+		(at 232.664 75.184 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3541,6 +3698,16 @@
 			(justify left)
 		)
 		(uuid "d522d6da-b361-4721-a52a-dd2f40018a9f")
+	)
+	(text "VNA connector"
+		(exclude_from_sim no)
+		(at 252.73 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "da68db6a-bc03-4e2a-b686-da95db7bf770")
 	)
 	(text "C instead of L"
 		(exclude_from_sim no)
@@ -3564,9 +3731,9 @@
 		)
 		(uuid "e2d66bfb-65ec-48d2-bb34-981724193bca")
 	)
-	(text "No invertor used, so:\nRF2 -> RFI_LF\nRF1 -> RF0_LF"
+	(text "No inverter used, so:\nRF2 -> RFI_LF\nRF1 -> RF0_LF"
 		(exclude_from_sim no)
-		(at 151.384 154.432 0)
+		(at 150.114 157.226 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3594,10 +3761,10 @@
 		(uuid "06016c2e-e723-4c96-a044-18fec5c52dc7")
 	)
 	(junction
-		(at 83.82 26.67)
+		(at 91.44 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0ffb2fce-c9f9-403c-9c16-e381ca010428")
+		(uuid "08fb143a-2012-461a-9e88-de9b2f85dfd0")
 	)
 	(junction
 		(at 243.84 80.01)
@@ -3660,12 +3827,6 @@
 		(uuid "597225f9-bcbc-41d5-ad0f-e301201079d0")
 	)
 	(junction
-		(at 83.82 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ae86213-696e-40ba-a54a-7b912277746e")
-	)
-	(junction
 		(at 135.89 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3682,6 +3843,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71d2cfb7-3c34-4b43-9e8e-3e84b8a2d28c")
+	)
+	(junction
+		(at 85.09 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8da8bdf0-8c87-40b0-acef-f7884b4d26e4")
 	)
 	(junction
 		(at 217.17 124.46)
@@ -3762,12 +3929,6 @@
 		(uuid "e6af8117-58aa-43cd-9491-439348441cfa")
 	)
 	(junction
-		(at 78.74 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e826bbb0-a827-40fd-b321-1baca8cd85d9")
-	)
-	(junction
 		(at 231.14 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3810,12 +3971,12 @@
 		(uuid "5b452f42-0dfd-4180-898e-6e61206870c9")
 	)
 	(no_connect
-		(at 67.31 87.63)
-		(uuid "5f47e306-84d0-43b1-9c8e-3a97438fcf06")
-	)
-	(no_connect
 		(at 36.83 44.45)
 		(uuid "62102bd7-779c-437b-be17-92c4a65b932a")
+	)
+	(no_connect
+		(at 67.31 82.55)
+		(uuid "665c06cc-768a-43fe-8952-638e659ec538")
 	)
 	(no_connect
 		(at 36.83 41.91)
@@ -3862,6 +4023,10 @@
 		(uuid "c0868737-9d01-47e7-9634-17f4e701de5a")
 	)
 	(no_connect
+		(at 67.31 54.61)
+		(uuid "d22aa119-ec63-4a5a-95cc-7f934caeaef1")
+	)
+	(no_connect
 		(at 36.83 77.47)
 		(uuid "d8a0e62c-dd6d-439f-aa67-930b400a131a")
 	)
@@ -3888,6 +4053,16 @@
 	(no_connect
 		(at 67.31 92.71)
 		(uuid "faf03dfb-3814-471a-a274-476d8b62d30b")
+	)
+	(wire
+		(pts
+			(xy 35.56 171.45) (xy 35.56 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e80a81-b914-4b53-a98b-5cb88fac4b60")
 	)
 	(wire
 		(pts
@@ -3971,6 +4146,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 171.45) (xy 45.72 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd357e6-c192-417d-a08f-9ce8d8ce6721")
+	)
+	(wire
+		(pts
 			(xy 200.66 121.92) (xy 204.47 121.92)
 		)
 		(stroke
@@ -4048,16 +4233,6 @@
 			(type default)
 		)
 		(uuid "2ee96e84-5152-4f28-9f56-f59b8c68c6a4")
-	)
-	(wire
-		(pts
-			(xy 67.31 85.09) (xy 71.12 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30c63b37-d5e1-463f-82f9-14d9064ea1f7")
 	)
 	(wire
 		(pts
@@ -4271,6 +4446,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 85.09) (xy 71.12 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5025c9c6-b680-451f-9909-49a476cddec2")
+	)
+	(wire
+		(pts
 			(xy 231.14 135.89) (xy 231.14 132.08)
 		)
 		(stroke
@@ -4321,6 +4506,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 87.63) (xy 71.12 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd8c9ec-c036-4c9f-af6b-d746ea536f0b")
+	)
+	(wire
+		(pts
 			(xy 128.27 95.25) (xy 128.27 96.52)
 		)
 		(stroke
@@ -4338,6 +4533,16 @@
 			(type default)
 		)
 		(uuid "69f77974-496d-40fb-a991-d872b456d759")
+	)
+	(wire
+		(pts
+			(xy 91.44 26.67) (xy 97.79 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c39680e-e885-4f2e-8916-836b751434fc")
 	)
 	(wire
 		(pts
@@ -4401,6 +4606,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 171.45) (xy 19.05 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7feed842-4a2e-4ccb-9410-f6defe35543f")
+	)
+	(wire
+		(pts
 			(xy 255.27 87.63) (xy 271.78 87.63)
 		)
 		(stroke
@@ -4411,7 +4626,17 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 26.67) (xy 78.74 26.67)
+			(xy 40.64 171.45) (xy 40.64 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82ad16e9-7e1d-40ec-99df-ca11132bb34a")
+	)
+	(wire
+		(pts
+			(xy 52.07 26.67) (xy 91.44 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4421,7 +4646,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 39.37) (xy 181.61 39.37)
+			(xy 185.42 39.37) (xy 181.61 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4481,16 +4706,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 54.61) (xy 71.12 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d68f7bb-1067-418f-9954-64095a6452fc")
-	)
-	(wire
-		(pts
 			(xy 120.65 95.25) (xy 128.27 95.25)
 		)
 		(stroke
@@ -4518,6 +4733,16 @@
 			(type default)
 		)
 		(uuid "953ae61b-5e58-4b34-ab92-125e3cb9637b")
+	)
+	(wire
+		(pts
+			(xy 85.09 36.83) (xy 85.09 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97669315-e682-4949-b84a-e6a8cf945229")
 	)
 	(wire
 		(pts
@@ -4581,23 +4806,13 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 34.29) (xy 88.9 34.29)
+			(xy 24.13 171.45) (xy 24.13 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5a4a580-1a7d-41eb-bc3a-4b22807a54b5")
-	)
-	(wire
-		(pts
-			(xy 83.82 26.67) (xy 88.9 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7b742eb-64db-4cbd-adaa-6f59428d4175")
+		(uuid "a8d6272b-0647-4364-9922-6e4e8fd72eb6")
 	)
 	(wire
 		(pts
@@ -4631,23 +4846,23 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 34.29) (xy 83.82 34.29)
+			(xy 231.14 105.41) (xy 231.14 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b1fb3f8c-4a43-494f-9736-afd87d3e140d")
+		(uuid "aedc7bcb-50fc-4372-9b40-fc7289866fc8")
 	)
 	(wire
 		(pts
-			(xy 67.31 82.55) (xy 71.12 82.55)
+			(xy 245.11 105.41) (xy 231.14 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b47b5148-4db7-4f4d-81c3-b7ac1a064ffe")
+		(uuid "b150cf75-ca9f-46a4-bfd8-2b62d31beb7a")
 	)
 	(wire
 		(pts
@@ -4701,6 +4916,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 36.83) (xy 97.79 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0c49fda-30a3-42bd-9b39-b3397af19d53")
+	)
+	(wire
+		(pts
 			(xy 241.3 135.89) (xy 241.3 129.54)
 		)
 		(stroke
@@ -4741,7 +4966,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 67.31) (xy 185.42 67.31)
+			(xy 181.61 67.31) (xy 184.15 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4791,7 +5016,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 24.13) (xy 83.82 26.67)
+			(xy 91.44 24.13) (xy 91.44 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4901,13 +5126,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 26.67) (xy 83.82 26.67)
+			(xy 30.48 171.45) (xy 30.48 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f65de28c-6f2b-4c94-9647-765a77ca6f6e")
+		(uuid "eccf8ecc-aee9-4673-9085-fc77b09d0b59")
 	)
 	(wire
 		(pts
@@ -4959,6 +5184,16 @@
 		)
 		(uuid "09b588e0-5fd0-478d-ad59-f9bd659b620c")
 	)
+	(label "MCU_SPI_MOSI"
+		(at 40.64 171.45 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0a24f0ac-f056-4452-9d48-86220ac9ef45")
+	)
 	(label "MCU_SPI_SCK"
 		(at 130.81 44.45 180)
 		(effects
@@ -4989,6 +5224,16 @@
 		)
 		(uuid "2929891b-8361-4450-b4ea-a4939893339e")
 	)
+	(label "SCL"
+		(at 19.05 171.45 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2cc9edb8-cd15-4c50-9add-1e2e5426d260")
+	)
 	(label "SX_RFO_LF"
 		(at 184.15 59.69 0)
 		(effects
@@ -4998,6 +5243,16 @@
 			(justify left bottom)
 		)
 		(uuid "345d88c2-5d82-43c8-a0d3-fe206636861d")
+	)
+	(label "MCU_LORA_NRESET"
+		(at 52.07 170.18 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "516a5bdb-124c-41ad-a3d5-6559ecb80b0f")
 	)
 	(label "MCU_SPI_MOSI"
 		(at 71.12 77.47 0)
@@ -5018,6 +5273,16 @@
 			(justify left bottom)
 		)
 		(uuid "5b084a28-9a88-4d0f-9023-1d38a5152b1f")
+	)
+	(label "MCU_LORA_NRESET"
+		(at 45.72 171.45 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e1c0112-4dd5-4e31-b31e-8dea6d6574f4")
 	)
 	(label "SCL"
 		(at 97.79 74.93 0)
@@ -5060,7 +5325,7 @@
 		(uuid "793b9152-9d64-4e5e-a292-9ce73d69f885")
 	)
 	(label "VR_PA"
-		(at 184.15 39.37 0)
+		(at 185.42 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5090,7 +5355,7 @@
 		(uuid "93ce31c6-600c-4ed0-a360-f73d8ddf1ef9")
 	)
 	(label "LoRa_DIO0"
-		(at 185.42 67.31 0)
+		(at 184.15 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5149,6 +5414,16 @@
 		)
 		(uuid "af8578a5-483f-4c68-b6da-0e05708d7d0e")
 	)
+	(label "MCU_SPI_MISO"
+		(at 35.56 171.45 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b429a170-dbd7-4ccc-9f53-32b1bf661680")
+	)
 	(label "RFI_LF"
 		(at 204.47 119.38 0)
 		(effects
@@ -5169,6 +5444,16 @@
 		)
 		(uuid "c1921dd0-44b1-4b12-a7ab-76965012f568")
 	)
+	(label "LoRa_DIO0"
+		(at 57.15 170.18 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c8f51d56-affe-46a5-b474-f2e5271ee9cf")
+	)
 	(label "SX_RFI_LF"
 		(at 132.08 59.69 180)
 		(effects
@@ -5178,6 +5463,16 @@
 			(justify right bottom)
 		)
 		(uuid "cb2b67cd-4e1c-469b-bf47-ec3e6f57198f")
+	)
+	(label "SDA"
+		(at 24.13 171.45 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d000bc2d-3aad-430e-9627-a03d859d5947")
 	)
 	(label "MCU_SPI_MOSI"
 		(at 130.81 49.53 180)
@@ -5209,6 +5504,16 @@
 		)
 		(uuid "ddd19122-3e69-462b-8c39-d4dd95b36534")
 	)
+	(label "MCU_SPI_SCK"
+		(at 30.48 171.45 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e0ab084a-49e1-4876-a942-455e684c681a")
+	)
 	(label "SX_RFO_LF"
 		(at 208.28 80.01 180)
 		(effects
@@ -5218,6 +5523,17 @@
 			(justify right bottom)
 		)
 		(uuid "e4dac01f-edb0-46f2-9aa3-7371231477fe")
+	)
+	(hierarchical_label "GPIO_CE"
+		(shape input)
+		(at 71.12 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "256de32a-a05e-4363-9ff3-b159a97facf6")
 	)
 	(hierarchical_label "MCU_RX"
 		(shape input)
@@ -5274,38 +5590,16 @@
 		)
 		(uuid "8a7e7f75-db5e-46db-9865-da211780a688")
 	)
-	(hierarchical_label "GPIO_PROG2"
-		(shape output)
-		(at 71.12 54.61 0)
+	(hierarchical_label "USB_SENS"
+		(shape input)
+		(at 71.12 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "9ce4180f-8a8e-4edf-a03f-f785e98147d5")
-	)
-	(hierarchical_label "GPIO_CE"
-		(shape output)
-		(at 71.12 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a49a719a-de04-4f18-9946-c0f50ee35e50")
-	)
-	(hierarchical_label "GPIO_SEL"
-		(shape output)
-		(at 71.12 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b4d90f7b-066a-4af8-9192-97e73f3c5f7c")
+		(uuid "efb2b5a9-0962-4f7f-8a70-0fc8cd4912cc")
 	)
 	(hierarchical_label "MCU_TX"
 		(shape output)
@@ -5328,6 +5622,85 @@
 			(justify right)
 		)
 		(uuid "f759d4a0-ebba-462b-8990-39af1bdceb8a")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 40.64 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "02394a02-4c84-44ea-ac15-fb4d24f923c0")
+		(property "Reference" "TP5"
+			(at 39.116 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 43.18 168.1479 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 45.72 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 40.64 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c493dc9-b222-4593-94b8-ebfb2d196a92")
+		)
+		(instances
+			(project "lora_sensor_tag"
+				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -5362,7 +5735,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 224.4852 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5500,7 +5873,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05e65120-914b-46a7-85e4-2429d0f47f94")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 214.63 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5560,7 +5933,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5576,10 +5949,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "093f8832-c13c-46b6-ae1f-8f5ebd861ed9")
-		(property "Reference" "C26"
-			(at 76.2 135.8899 0)
+		(property "Reference" "C27"
+			(at 75.184 135.636 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5590,7 +5962,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 76.2 138.4299 0)
+			(at 75.184 138.176 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5600,7 +5972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 73.3552 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -5642,7 +6014,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "C26")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -5681,7 +6053,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 202.8952 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5730,6 +6102,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 24.13 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0e9b5550-f4df-4850-85f9-d8ebf8ba7180")
+		(property "Reference" "TP2"
+			(at 22.606 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 26.67 168.1479 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 29.21 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 24.13 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7fefb1d3-7e72-4c6d-91c5-a36ed18de992")
+		)
+		(instances
+			(project "lora_sensor_tag"
+				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 220.98 100.33 0)
 		(unit 1)
@@ -5740,7 +6191,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f1ce9d0-cb51-46d2-87fe-cd5f8101834a")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 220.98 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5800,7 +6251,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5817,8 +6268,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "103b78ef-13fe-47c5-9723-59862da13f58")
-		(property "Reference" "C27"
-			(at 169.418 133.604 0)
+		(property "Reference" "C26"
+			(at 168.91 134.112 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5828,8 +6279,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 169.926 136.906 0)
+		(property "Value" "100nF"
+			(at 166.878 136.652 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5839,7 +6290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 176.2252 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5881,7 +6332,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "C27")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -5897,10 +6348,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "118a541a-80f7-4246-b370-83d46a3146bf")
 		(property "Reference" "R1"
-			(at 30.48 31.7499 0)
+			(at 23.876 30.988 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5910,8 +6360,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 30.48 34.2899 0)
+		(property "Value" "5K"
+			(at 23.876 33.528 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5921,7 +6371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TPS63070RNMR:VREG_TPS63070RNMR"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 26.162 33.02 90)
 			(hide yes)
 			(show_name no)
@@ -5980,7 +6430,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "194011b2-e504-4267-bf27-b00d54d69a65")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 247.65 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6040,7 +6490,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6308,7 +6758,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 223.52 80.9752 0)
 			(hide yes)
 			(show_name no)
@@ -6357,6 +6807,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 19.05 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ac501c2-207e-40e6-9eed-8e5a84ca19a3")
+		(property "Reference" "TP1"
+			(at 17.526 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 21.59 168.1479 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 24.13 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 19.05 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "46a447fd-df7f-4d5d-8567-d524da56dcad")
+		)
+		(instances
+			(project "lora_sensor_tag"
+				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 224.79 124.46 90)
 		(unit 1)
@@ -6367,8 +6896,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f4a82ee-a5ea-4ef3-857e-d894040f0201")
-		(property "Reference" "L7"
-			(at 220.98 122.936 90)
+		(property "Reference" "L6"
+			(at 220.98 122.682 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6378,7 +6907,7 @@
 			)
 		)
 		(property "Value" "220nH"
-			(at 230.124 122.936 90)
+			(at 226.568 122.682 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6387,7 +6916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_DPDT_Finder_30.22"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 224.79 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6429,7 +6958,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "L7")
+					(reference "L6")
 					(unit 1)
 				)
 			)
@@ -6523,8 +7052,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2571dbae-aa8e-43b6-96e1-484c638adbe5")
-		(property "Reference" "C20"
-			(at 226.568 99.314 0)
+		(property "Reference" "C22"
+			(at 226.822 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6545,7 +7074,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 228.2952 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6587,7 +7116,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "C20")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -6595,7 +7124,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 88.9 30.48 0)
+		(at 97.79 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6605,7 +7134,7 @@
 		(dnp no)
 		(uuid "28a6c7ad-de8c-4880-84ff-a79dacddb394")
 		(property "Reference" "C2"
-			(at 91.44 28.702 0)
+			(at 99.314 28.194 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6615,8 +7144,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 91.44 32.258 0)
+		(property "Value" "100nF"
+			(at 99.06 33.528 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6626,8 +7155,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 89.8652 34.29 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 98.7552 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6638,7 +7167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 30.48 0)
+			(at 97.79 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6649,7 +7178,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 88.9 30.48 0)
+			(at 97.79 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6707,7 +7236,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 256.2352 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6786,7 +7315,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 214.63 123.4948 0)
 			(hide yes)
 			(show_name no)
@@ -6845,7 +7374,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d7c6af0-9c67-43e6-b832-772878780058")
-		(property "Reference" "C18"
+		(property "Reference" "C20"
 			(at 213.868 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6857,7 +7386,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 213.614 93.98 0)
+			(at 213.614 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6867,7 +7396,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 215.5952 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6909,7 +7438,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "C18")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -6948,7 +7477,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 209.2452 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7007,7 +7536,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37b78ea4-46fa-4dd6-b4ab-b9023458adde")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR014"
 			(at 128.27 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -7067,7 +7596,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR018")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7085,7 +7614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d26346d-1a3d-4200-89b8-819d1a19359e")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 245.11 123.4831 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7149,7 +7678,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7358,7 +7887,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "426fa417-0770-4c78-8107-f3e3b5da19d8")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 211.074 63.754 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7378,7 +7907,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_DPDT_Finder_30.22"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 213.36 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7420,7 +7949,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -7437,7 +7966,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45326e81-ef57-45bd-81cb-c67eefb77e8a")
-		(property "Reference" "C22"
+		(property "Reference" "C19"
 			(at 139.954 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7459,7 +7988,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 136.8552 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7501,7 +8030,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "C22")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -7517,10 +8046,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "478b2982-6ceb-4a91-b973-c4fd573f51f3")
 		(property "Reference" "R4"
-			(at 97.79 66.0399 0)
+			(at 96.774 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7530,8 +8058,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 97.79 68.5799 0)
+		(property "Value" "4K7"
+			(at 96.774 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7541,7 +8069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TPS63070RNMR:VREG_TPS63070RNMR"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 93.472 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -7622,7 +8150,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 224.4852 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7672,7 +8200,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 83.82 24.13 0)
+		(at 91.44 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7682,7 +8210,7 @@
 		(dnp no)
 		(uuid "4842a6e9-b7a6-4eee-a7a8-8ed298680296")
 		(property "Reference" "#PWR01"
-			(at 83.82 27.94 0)
+			(at 91.44 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7693,7 +8221,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 83.82 20.066 0)
+			(at 91.44 20.066 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7703,7 +8231,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 24.13 0)
+			(at 91.44 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7714,7 +8242,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 24.13 0)
+			(at 91.44 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7725,7 +8253,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 83.82 24.13 0)
+			(at 91.44 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7780,7 +8308,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 239.7252 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7838,10 +8366,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4d187e18-c9f3-4693-92f3-b8c9b0f2d836")
 		(property "Reference" "C3"
-			(at 31.75 39.3699 0)
+			(at 22.098 40.132 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7851,8 +8378,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 31.75 41.9099 0)
+		(property "Value" "100nF"
+			(at 21.336 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7862,7 +8389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 28.9052 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7921,7 +8448,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53956732-b4e8-45d1-9275-5cb5202a8394")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 217.17 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7981,7 +8508,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7998,7 +8525,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54129ada-6d01-48ca-9fe4-01cb47bd5896")
-		(property "Reference" "L3"
+		(property "Reference" "L2"
 			(at 236.982 78.232 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8018,7 +8545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_DPDT_Finder_30.22"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 234.95 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -8060,7 +8587,165 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "L3")
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 35.56 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "54b386e4-d9e6-4ed2-8073-3239074b56b1")
+		(property "Reference" "TP4"
+			(at 34.036 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 38.1 168.1479 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 40.64 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 35.56 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "891c3653-dba4-48c2-80ff-b936ba8efecc")
+		)
+		(instances
+			(project "lora_sensor_tag"
+				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 57.15 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "57848cfa-da7a-46b7-b4e2-eac3abf0b503")
+		(property "Reference" "TP8"
+			(at 55.626 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 59.69 168.1479 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 62.23 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 57.15 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7cc06e6f-a9e6-43af-bec6-d0c3e7db914c")
+		)
+		(instances
+			(project "lora_sensor_tag"
+				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -8077,7 +8762,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58f18273-fd2c-4cb0-a8b4-a3c43467c4f4")
-		(property "Reference" "L6"
+		(property "Reference" "L5"
 			(at 212.344 81.026 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8097,7 +8782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_DPDT_Finder_30.22"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 214.63 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8139,7 +8824,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "L6")
+					(reference "L5")
 					(unit 1)
 				)
 			)
@@ -8156,7 +8841,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b617e91-c0fd-43c9-956e-48809c68e768")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 231.14 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8216,7 +8901,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8233,7 +8918,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c30ade2-89ce-40e1-a9fc-a68cf54a96ed")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 27.94 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8293,7 +8978,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8310,7 +8995,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ec47333-6ae4-4883-bdcf-8b2ed1bacf92")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 91.44 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8322,7 +9007,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 91.44 59.436 0)
+			(at 91.44 59.944 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8370,7 +9055,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8387,7 +9072,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61530843-77cd-4cdd-a0ce-4c12fd9a7045")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 220.98 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -8447,7 +9132,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8464,7 +9149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f5fdd4d-e115-4b03-a7cf-27f8b8454dba")
-		(property "Reference" "C21"
+		(property "Reference" "C18"
 			(at 120.65 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8486,7 +9171,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 121.6152 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8528,7 +9213,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "C21")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -8545,7 +9230,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "806ffb41-ab15-4f63-83e5-8fd0cc55eb43")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 72.39 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8605,7 +9290,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8644,7 +9329,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 230.1748 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8703,7 +9388,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8aca7dd2-78c3-4d54-b1c6-eb2a8c469388")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 205.74 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8763,7 +9448,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8780,7 +9465,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "937b6bce-0707-4355-b189-88033787eed3")
-		(property "Reference" "C19"
+		(property "Reference" "C21"
 			(at 219.964 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8802,7 +9487,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 221.9452 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8844,7 +9529,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "C19")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -8861,7 +9546,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97fe8089-a66e-45d9-b50b-d06728e07a5d")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 52.07 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8921,7 +9606,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8938,7 +9623,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3b1061f-4a18-4f45-ac11-2346981777c2")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 72.39 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -8998,7 +9683,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR025")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -9037,7 +9722,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 233.3752 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9096,7 +9781,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab40a25f-7365-4683-8f28-8935c70285c6")
-		(property "Reference" "C40"
+		(property "Reference" "C8"
 			(at 210.566 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9118,7 +9803,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 220.98 58.7248 0)
 			(hide yes)
 			(show_name no)
@@ -9160,7 +9845,84 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "C40")
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ae005925-d532-497d-ae15-deefd9f7f117")
+		(property "Reference" "#PWR04"
+			(at 85.09 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.392 39.116 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "facbdd1f-dce3-4a95-a02a-0eeb7a2d2571")
+		)
+		(instances
+			(project "lora_sensor_tag"
+				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -9177,7 +9939,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aff0bad1-eace-452f-80ee-d304d38ca2a2")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 213.36 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9237,7 +9999,86 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR09")
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 30.48 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1b9b14a-2597-4d84-8053-10eb46d7dfbd")
+		(property "Reference" "TP3"
+			(at 28.956 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 33.02 168.1479 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 35.56 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 30.48 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c011b2d0-2e27-401e-bd81-2748c8ac6195")
+		)
+		(instances
+			(project "lora_sensor_tag"
+				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -9254,7 +10095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4ac5abb-d433-4e4e-922f-b867f78b15bc")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 175.26 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -9314,7 +10155,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -9322,7 +10163,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 34.29 0)
+		(at 97.79 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9331,8 +10172,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4d45ec1-1f8b-49b8-aff3-f6ee1f34acd2")
-		(property "Reference" "#PWR04"
-			(at 83.82 40.64 0)
+		(property "Reference" "#PWR05"
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9343,7 +10184,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.122 36.576 0)
+			(at 101.092 39.116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9353,7 +10194,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 34.29 0)
+			(at 97.79 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9364,7 +10205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 34.29 0)
+			(at 97.79 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9375,7 +10216,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 34.29 0)
+			(at 97.79 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9391,7 +10232,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -9408,7 +10249,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b50b2a02-6319-4e69-a67f-8f5cd3b2d5d6")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 241.3 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -9468,7 +10309,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9562,7 +10403,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8c78055-f846-453c-bc91-0640230523a0")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 175.26 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -9622,7 +10463,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR019")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9639,7 +10480,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8f1bd87-2726-469c-8c57-bb81aeb5b38b")
-		(property "Reference" "L5"
+		(property "Reference" "L4"
 			(at 265.176 77.978 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9659,7 +10500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_DPDT_Finder_30.22"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 262.89 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -9701,7 +10542,84 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "L5")
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 250.19 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bf8c47cf-fab4-4aee-8afd-8c4e6d8e3d5d")
+		(property "Reference" "#PWR019"
+			(at 250.19 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 114.554 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3b5cc7f-514e-4f8b-8836-6d4161537eb3")
+		)
+		(instances
+			(project "lora_sensor_tag"
+				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9740,7 +10658,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 216.2048 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -9799,7 +10717,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c15f226a-86b2-4ade-8731-d91d4ac2c2b7")
-		(property "Reference" "L4"
+		(property "Reference" "L3"
 			(at 249.936 77.978 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9819,7 +10737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_DPDT_Finder_30.22"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 247.65 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -9861,7 +10779,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "L4")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -9877,10 +10795,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c6970b21-52b8-4dca-93db-7ffb1f995dbd")
-		(property "Reference" "R6"
-			(at 170.18 139.7 90)
+		(property "Reference" "R5"
+			(at 167.386 143.764 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9889,8 +10806,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 170.18 142.24 90)
+		(property "Value" "10K"
+			(at 171.196 143.764 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9899,7 +10816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS63070RNMR:VREG_TPS63070RNMR"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 170.18 147.828 90)
 			(hide yes)
 			(show_name no)
@@ -9941,7 +10858,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9957,10 +10874,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d1729bf3-4817-47ca-b2b3-6967f906fe36")
 		(property "Reference" "R3"
-			(at 88.9 66.0399 0)
+			(at 87.63 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9970,8 +10886,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 88.9 68.5799 0)
+		(property "Value" "4K7"
+			(at 87.63 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9981,7 +10897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TPS63070RNMR:VREG_TPS63070RNMR"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 84.582 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -10062,7 +10978,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 272.7452 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -10198,7 +11114,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "debdabee-1f24-42ec-abf3-6571f1c9cc26")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 226.314 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10220,7 +11136,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 228.6 58.7248 0)
 			(hide yes)
 			(show_name no)
@@ -10262,7 +11178,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -10279,7 +11195,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df567b80-e468-408d-9b19-2ce5e867a635")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 245.872 56.388 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10301,7 +11217,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 247.65 58.7248 0)
 			(hide yes)
 			(show_name no)
@@ -10343,7 +11259,86 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "C9")
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 45.72 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e3016917-04f8-493d-bf79-259a87564b6e")
+		(property "Reference" "TP6"
+			(at 44.196 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 48.26 168.1479 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 50.8 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 45.72 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "787d1d03-43fb-4785-a2bc-6f715cb779a1")
+		)
+		(instances
+			(project "lora_sensor_tag"
+				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -10360,7 +11355,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4e4ec4c-2ff8-4ad0-9cb9-4e5cbbbb52f9")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 67.31 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -10420,7 +11415,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -10437,7 +11432,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8854d90-6e57-4624-aad7-18ae0978e584")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 228.6 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10497,7 +11492,89 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR07")
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 250.19 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb4488d1-d3da-45c6-9bcc-1ef5e7ed64df")
+		(property "Reference" "J1"
+			(at 254 104.4331 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 254 106.9731 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_BAT_Wireless_BWSMA-KWE-Z001"
+			(at 250.19 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 250.19 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a82986e-96b0-4462-bdfd-f39437f45f10")
+		)
+		(pin "2"
+			(uuid "3573be7c-9b47-4051-832f-87c43d976d26")
+		)
+		(instances
+			(project "lora_sensor_tag"
+				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -10514,7 +11591,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed8d6717-8ead-4c99-b95a-b77fff6a1cbb")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 227.076 66.802 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10536,7 +11613,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 221.9452 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10578,7 +11655,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -10595,7 +11672,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee1aecbf-a48a-4823-bfcc-402c859edf60")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 227.33 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -10655,7 +11732,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10692,7 +11769,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 128.27 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -10779,7 +11856,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef8997ec-9963-4d52-b809-b36dadc3b3f0")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 245.872 73.406 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10801,7 +11878,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 243.84 75.8952 0)
 			(hide yes)
 			(show_name no)
@@ -10843,7 +11920,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -11133,7 +12210,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 78.74 30.48 0)
+		(at 85.09 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11143,7 +12220,7 @@
 		(dnp no)
 		(uuid "f2796101-b8dd-4c7c-93e2-f4a62d701095")
 		(property "Reference" "C1"
-			(at 81.28 28.956 0)
+			(at 86.614 28.448 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11153,8 +12230,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 81.534 31.75 0)
+		(property "Value" "100nF"
+			(at 86.36 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11164,8 +12241,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 79.7052 34.29 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 86.0552 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11176,7 +12253,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 30.48 0)
+			(at 85.09 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11187,7 +12264,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 78.74 30.48 0)
+			(at 85.09 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11490,7 +12567,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f65cdc40-cf90-4fb0-ba12-d5447ace6632")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 181.61 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11550,7 +12627,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -11566,10 +12643,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f7b5dbe6-5c10-4159-b2b2-9ec7da648fd8")
 		(property "Reference" "C28"
-			(at 178.7811 148.5899 0)
+			(at 178.308 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11579,8 +12655,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
-			(at 178.7811 151.1299 0)
+		(property "Value" "100nF"
+			(at 178.308 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11590,7 +12666,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 174.2948 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -11639,6 +12715,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 52.07 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fab7fafe-ce41-4de0-9bba-bbbc29841000")
+		(property "Reference" "TP7"
+			(at 50.546 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 54.61 168.1479 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 57.15 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 52.07 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e90fd4a-9ca0-4d12-b896-3c49aa955684")
+		)
+		(instances
+			(project "lora_sensor_tag"
+				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 62.23 149.86 0)
 		(unit 1)
@@ -11649,7 +12804,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe13b3cf-4f25-4c5f-bc6c-b6771d0f89ea")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 62.23 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -11709,7 +12864,7 @@
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
