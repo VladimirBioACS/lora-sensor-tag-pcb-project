@@ -121,6 +121,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 116.84) (xy 148.59 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bc02186-3baa-4751-afab-525fa8314883")
+	)
+	(wire
+		(pts
 			(xy 137.16 58.42) (xy 137.16 97.79)
 		)
 		(stroke
@@ -317,6 +327,16 @@
 				(justify right)
 			)
 		)
+		(pin "GPIO_CE" output
+			(at 132.08 116.84 0)
+			(uuid "417ae1b1-9730-4bfa-9493-61cbae77d730")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7"
@@ -406,6 +426,16 @@
 		(pin "SDA" bidirectional
 			(at 148.59 121.92 180)
 			(uuid "4f8a84c3-2170-43d7-9050-ee952032fba2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_CE" input
+			(at 148.59 116.84 180)
+			(uuid "e92016e9-c4c1-4cc1-8bf2-2a99d30c3cba")
 			(effects
 				(font
 					(size 1.27 1.27)
