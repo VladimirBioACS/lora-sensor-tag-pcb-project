@@ -11,7 +11,8 @@ The architecture of the project is described with the diagram below (lora_sensor
 
 The LoRa Sensor Project is designed to create a network of low-power, long-range sensors for environmental monitoring. 
 The project aims to leverage LoRa technology to enable efficient data collection from remote locations, 
-providing real-time insights into various environmental parameters such as temperature and humidity.
+providing real-time insights into various environmental parameters such as temperature and humidity. The LoRa modem works
+within 433 Mhz LF baseband.
 
 It is developed simply for the educational purpose, aiming to provide students and hobbyists with hands-on experience in 
 building and managing a LoRa-based sensor network.
@@ -30,6 +31,7 @@ The following key components were used:
 - MCP73871-2CAI_ML - Li-Ion/Li-Polymer Battery Charger to manage battery charging and protection
 - SHT20 - Temperature and Humidity Sensor to measure environmental conditions
 - SX1276IMLTRT - LoRa Transceiver Module to enable long-range wireless communication
+- PE4259 - RF switch for LoRa antenna
 - TPS63070RNMR - Buck-Boost Converter to manage power supply and ensure stable operation
 - ESP32 - Microcontroller to process sensor data and manage communication
 - CP2102 - USB to UART Bridge Controller to enable serial communication between the microcontroller and a computer. Also, acts as a programmer for the microcontroller.
