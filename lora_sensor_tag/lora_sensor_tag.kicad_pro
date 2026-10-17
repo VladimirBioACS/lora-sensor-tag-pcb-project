@@ -550,13 +550,14 @@
         "via_drill": 0.5
       },
       {
-        "clearance": 0.94,
+        "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.3112,
         "name": "USB_DIFF",
         "pcb_color": "rgb(255, 0, 227)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3112,
         "tuning_profile": ""
       }
     ],
@@ -588,11 +589,15 @@
       },
       {
         "netclass": "USB_DIFF",
-        "pattern": "/usb_and_prog/USB_D_M"
+        "pattern": "/usb_and_prog/USB_D_N"
       },
       {
         "netclass": "USB_DIFF",
         "pattern": "/usb_and_prog/USB_D_P"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/MCU_main_part/USB_SENS"
       }
     ]
   },

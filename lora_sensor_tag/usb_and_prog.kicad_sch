@@ -3552,7 +3552,7 @@
 		)
 		(uuid "7181fa27-3a15-4d77-96a0-e6dab5d27625")
 	)
-	(label "USB_D_M"
+	(label "USB_D_N"
 		(at 73.66 48.26 0)
 		(effects
 			(font
@@ -3592,7 +3592,7 @@
 		)
 		(uuid "a4267827-11ca-4b0e-8238-5ceeb3cb4951")
 	)
-	(label "USB_D_M"
+	(label "USB_D_N"
 		(at 165.1 66.04 180)
 		(effects
 			(font
@@ -4239,7 +4239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metrica"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 194.31 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5077,7 +5077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metrica"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 194.31 133.35 0)
 			(hide yes)
 			(show_name no)
