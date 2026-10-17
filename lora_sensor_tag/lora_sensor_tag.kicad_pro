@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.2,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.2,
+          "thermal_relief_spoke_width": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -528,14 +528,16 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.2,
         "name": "Coplanar_waveguide",
         "pcb_color": "rgb(188, 133, 33)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.34,
         "tuning_profile": ""
       },
       {
-        "clearance": 0.5,
+        "clearance": 0.35,
         "diff_pair_gap": 0.5,
         "diff_pair_width": 0.4,
         "microvia_diameter": 0.5,
@@ -596,8 +598,12 @@
         "pattern": "/usb_and_prog/USB_D_P"
       },
       {
-        "netclass": "PWR",
-        "pattern": "/MCU_main_part/USB_SENS"
+        "netclass": "Coplanar_waveguide",
+        "pattern": "Net-(J1-In)"
+      },
+      {
+        "netclass": "Coplanar_waveguide",
+        "pattern": "Net-(J2-In)"
       }
     ]
   },
@@ -835,7 +841,7 @@
         "uuid": "c36711c6-27c1-4315-8bea-60438d6eedb7"
       }
     ],
-    "used_designators": "U1-10,J1-4,R1-45,D1-10,L1-8,#PWR1-109,C1-44,Y1,Q1-3,TP1-20,SW1-2,SW_PWR1,H1-4",
+    "used_designators": "U1-10,J1-4,R1-46,D1-10,L1-8,#PWR1-109,C1-44,Y1,Q1-3,TP1-20,SW1-2,SW_PWR1,H1-4",
     "variants": []
   },
   "sheets": [

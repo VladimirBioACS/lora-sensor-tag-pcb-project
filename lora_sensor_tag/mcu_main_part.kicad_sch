@@ -1275,129 +1275,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PE4259:PE4259"
 			(pin_names
 				(offset 1.016)
@@ -4431,6 +4308,12 @@
 		(uuid "71d2cfb7-3c34-4b43-9e8e-3e84b8a2d28c")
 	)
 	(junction
+		(at 231.14 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dc60c3a-6fa6-40fe-8f45-01c47c734db2")
+	)
+	(junction
 		(at 85.09 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4525,12 +4408,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6af8117-58aa-43cd-9491-439348441cfa")
-	)
-	(junction
-		(at 231.14 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef9908eb-43a4-4a4e-b286-0797cdb241ee")
 	)
 	(junction
 		(at 261.62 31.75)
@@ -4686,16 +4563,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 171.45) (xy 96.52 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "053969d9-d840-454f-b855-2bb61bb0c857")
-	)
-	(wire
-		(pts
 			(xy 208.28 80.01) (xy 214.63 80.01)
 		)
 		(stroke
@@ -4723,16 +4590,6 @@
 			(type default)
 		)
 		(uuid "0e256dc4-5edd-49e7-aeb5-5488b319726e")
-	)
-	(wire
-		(pts
-			(xy 99.06 187.96) (xy 99.06 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "124caa13-a010-4913-a3c7-dca9acb95eed")
 	)
 	(wire
 		(pts
@@ -5136,16 +4993,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 187.96) (xy 152.4 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50941bd4-c0e1-4f5c-92ed-c612643c81f9")
-	)
-	(wire
-		(pts
 			(xy 35.56 121.92) (xy 35.56 116.84)
 		)
 		(stroke
@@ -5326,6 +5173,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 124.46) (xy 236.22 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "831d7373-b614-45c8-9719-09dabeba5a51")
+	)
+	(wire
+		(pts
 			(xy 185.42 39.37) (xy 181.61 39.37)
 		)
 		(stroke
@@ -5496,16 +5353,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 124.46) (xy 228.6 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a07f11d7-c5bc-4905-a2c3-f3fb79837517")
-	)
-	(wire
-		(pts
 			(xy 91.44 63.5) (xy 95.25 63.5)
 		)
 		(stroke
@@ -5576,17 +5423,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 105.41) (xy 231.14 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aedc7bcb-50fc-4372-9b40-fc7289866fc8")
-	)
-	(wire
-		(pts
-			(xy 245.11 105.41) (xy 231.14 105.41)
+			(xy 245.11 105.41) (xy 241.3 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5686,16 +5523,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 187.96) (xy 125.73 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc8017d2-4217-4d44-8f7a-a6a7d307d17d")
-	)
-	(wire
-		(pts
 			(xy 181.61 67.31) (xy 184.15 67.31)
 		)
 		(stroke
@@ -5776,16 +5603,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 124.46) (xy 236.22 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2ad5655-d423-4376-b2aa-c94cdfb103db")
-	)
-	(wire
-		(pts
 			(xy 54.61 116.84) (xy 58.42 116.84)
 		)
 		(stroke
@@ -5856,6 +5673,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 105.41) (xy 231.14 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb077771-8fb5-4f61-b6fe-f251afdd06c1")
+	)
+	(wire
+		(pts
 			(xy 67.31 77.47) (xy 71.12 77.47)
 		)
 		(stroke
@@ -5883,6 +5710,26 @@
 			(type default)
 		)
 		(uuid "f6eaa32f-0d43-4c4b-8a16-ebd3198d3b99")
+	)
+	(wire
+		(pts
+			(xy 228.6 124.46) (xy 231.14 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb183759-a6dd-4859-b1c7-3295f6d43544")
+	)
+	(wire
+		(pts
+			(xy 233.68 105.41) (xy 231.14 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb3dd2fc-cc41-42a8-bfeb-e734c67896d1")
 	)
 	(wire
 		(pts
@@ -8055,83 +7902,6 @@
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 99.06 187.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0fde2870-747a-4c42-8538-3a1e90ba1c8a")
-		(property "Reference" "#PWR0108"
-			(at 99.06 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 192.278 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fc055d9e-ad60-42a9-bee6-9d9e364e095c")
-		)
-		(instances
-			(project "lora_sensor_tag"
-				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -12129,8 +11899,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 152.4 187.96 0)
+		(lib_id "Device:R")
+		(at 237.49 105.41 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12138,10 +11908,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a6146f3c-0b29-4829-8952-b64a1096adc1")
-		(property "Reference" "#PWR0106"
-			(at 152.4 194.31 0)
-			(hide yes)
+		(uuid "a51b47a4-64e1-4365-a36c-814537b1fe5b")
+		(property "Reference" "R46"
+			(at 238.76 103.378 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12150,8 +11919,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 152.4 192.278 0)
+		(property "Value" "0R"
+			(at 235.458 103.378 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12160,8 +11929,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 152.4 187.96 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 237.49 107.188 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12172,7 +11941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 187.96 0)
+			(at 237.49 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12182,8 +11951,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 187.96 0)
+		(property "Description" "Resistor"
+			(at 237.49 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12194,12 +11963,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "437d027f-b8f7-4542-b788-79805cc6c509")
+			(uuid "24931d5d-9d0d-43f2-8ea7-22d049c9ff3c")
+		)
+		(pin "2"
+			(uuid "0546ff27-e180-45b1-a129-5d9471c8cbb2")
 		)
 		(instances
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR0106")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -13782,83 +13554,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 96.52 171.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e1ed4cce-91a9-4f4b-be2d-422d4d4b3c99")
-		(property "Reference" "#PWR0109"
-			(at 96.52 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 175.768 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "705c7f40-e568-4e15-a576-ba45f6e96980")
-		)
-		(instances
-			(project "lora_sensor_tag"
-				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 45.72 176.53 0)
 		(unit 1)
@@ -13932,85 +13627,6 @@
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
 					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 99.06 181.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e36aa747-142b-4bee-8635-e9a2223952c3")
-		(property "Reference" "H1"
-			(at 101.6 179.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 101.6 181.6099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
-			(at 99.06 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 99.06 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fb330aef-1b86-4f73-b854-9d3226e755f5")
-		)
-		(instances
-			(project "lora_sensor_tag"
-				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -14245,85 +13861,6 @@
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 96.52 163.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea528d3e-4ee8-4907-ba32-e24ea5cbd6d2")
-		(property "Reference" "H4"
-			(at 99.06 161.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 99.06 163.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
-			(at 96.52 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 96.52 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dca827e5-120b-4dd2-a609-1d636bd21791")
-		)
-		(instances
-			(project "lora_sensor_tag"
-				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -15624,85 +15161,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 125.73 180.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fadb3780-58b4-48b4-9b9a-7301349dc5a5")
-		(property "Reference" "H2"
-			(at 128.27 177.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 128.27 180.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
-			(at 125.73 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 125.73 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b1a24de6-1b26-428f-b618-ecb46d0b6312")
-		)
-		(instances
-			(project "lora_sensor_tag"
-				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 62.23 157.48 0)
 		(unit 1)
@@ -15774,162 +15232,6 @@
 			(project "lora_sensor_tag"
 				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 125.73 187.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ff49a13c-7787-4692-a8b6-6e41cd94f2ec")
-		(property "Reference" "#PWR0107"
-			(at 125.73 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 192.278 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9eef6eec-fed3-45f2-8dab-d6f934555200")
-		)
-		(instances
-			(project "lora_sensor_tag"
-				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 152.4 180.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff8fc8b6-77bc-49a2-8727-c8d34311b3c2")
-		(property "Reference" "H3"
-			(at 154.94 177.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 154.94 180.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
-			(at 152.4 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 152.4 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "feea18f2-9fd2-4441-b3e6-16d20adbdb30")
-		)
-		(instances
-			(project "lora_sensor_tag"
-				(path "/c36711c6-27c1-4315-8bea-60438d6eedb7/0225fd9c-2ccf-458f-94a3-e2ffa44f3192"
-					(reference "H3")
 					(unit 1)
 				)
 			)
